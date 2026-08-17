@@ -1,0 +1,15 @@
+cl/duoc/bancoxyz/batch/config/BatchConfig.class
+cl/duoc/bancoxyz/batch/config/BatchConfig$3.class
+cl/duoc/bancoxyz/batch/config/BatchConfig$1.class
+cl/duoc/bancoxyz/batch/config/BatchJobStarter.class
+cl/duoc/bancoxyz/batch/model/CuentaAnual.class
+cl/duoc/bancoxyz/batch/BancoXyzBatchApplication.class
+cl/duoc/bancoxyz/batch/processor/TransaccionProcessor.class
+cl/duoc/bancoxyz/batch/config/BatchConfig$6.class
+cl/duoc/bancoxyz/batch/config/BatchConfig$2.class
+cl/duoc/bancoxyz/batch/model/Transaccion.class
+cl/duoc/bancoxyz/batch/config/BatchConfig$5.class
+cl/duoc/bancoxyz/batch/processor/CuentaAnualProcessor.class
+cl/duoc/bancoxyz/batch/processor/InteresProcessor.class
+cl/duoc/bancoxyz/batch/model/Interes.class
+cl/duoc/bancoxyz/batch/config/BatchConfig$4.class
