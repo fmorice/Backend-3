@@ -9,6 +9,12 @@ import com.duoc.migracion.listener.BatchSkipListener;
 import com.duoc.migracion.model.Interes;
 import com.duoc.migracion.processor.InteresProcessor;
 import com.duoc.migracion.reader.InteresReader;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.batch.core.partition.support.Partitioner;
+import org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler;
+import org.springframework.batch.item.file.FlatFileItemReader;
+import org.springframework.beans.factory.annotation.Value;
 import com.duoc.migracion.repository.InteresRepository;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -24,6 +30,8 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 @Configuration
 public class InteresBatchConfig {
+
+    private static final Logger logger = LoggerFactory.getLogger(InteresBatchConfig.class);
 
     private final InteresReader interesReader;
 
@@ -67,10 +75,64 @@ public class InteresBatchConfig {
                 .build();
     }
 
+    @Bean
+    public Partitioner interesPartitioner() {
+        return new InteresPartitioner();
+    }
+
+    @Bean
+    public Step interesWorkerStep(JobRepository jobRepository,
+                                  PlatformTransactionManager transactionManager,
+                                  FlatFileItemReader<com.duoc.migracion.model.Interes> interesPartitionedItemReader,
+                                  InteresProcessor interesProcessor,
+                                  RepositoryItemWriter<Interes> interesWriter,
+                                  BancoJobListener bancoJobListener,
+                                  BatchSkipListener batchSkipListener) {
+        return new StepBuilder("interesWorkerStep", jobRepository)
+                .<Interes, Interes>chunk(5, transactionManager)
+                .reader(interesPartitionedItemReader)
+                .processor(interesProcessor)
+                .writer(interesWriter)
+                .faultTolerant()
+                .skip(InvalidCsvRecordException.class)
+                .skip(InvalidMontoException.class)
+                .skip(RegistroMalClasificadoException.class)
+                .skip(CuentaNoEncontradaException.class)
+                .skipLimit(10)
+                .retry(CuentaNoEncontradaException.class)
+                .retryLimit(2)
+                .listener(bancoJobListener)
+                .listener(batchSkipListener)
+                .build();
+    }
+
+    @Bean
+    public TaskExecutorPartitionHandler interesPartitionHandler(ThreadPoolTaskExecutor batchTaskExecutor,
+                                                                Step interesWorkerStep,
+                                                                @Value("${batch.interes.partitions:3}") int gridSize) {
+        TaskExecutorPartitionHandler handler = new TaskExecutorPartitionHandler();
+        handler.setTaskExecutor(batchTaskExecutor);
+        handler.setStep(interesWorkerStep);
+        handler.setGridSize(gridSize);
+        logger.info("Configured Interes TaskExecutorPartitionHandler gridSize={}", gridSize);
+        return handler;
+    }
+
+    @Bean
+    public Step interesMasterStep(JobRepository jobRepository,
+                                  Partitioner interesPartitioner,
+                                  TaskExecutorPartitionHandler interesPartitionHandler) {
+        logger.info("Creating master step for interes with partitioner");
+        return new StepBuilder("interesMasterStep", jobRepository)
+                .partitioner("interesWorkerStep", interesPartitioner)
+                .partitionHandler(interesPartitionHandler)
+                .build();
+    }
+
     @Bean("interesJob")
-    public Job interesJob(JobRepository jobRepository, Step interesStep, BancoJobListener bancoJobListener) {
+    public Job interesJob(JobRepository jobRepository, Step interesMasterStep, BancoJobListener bancoJobListener) {
         return new JobBuilder("interesJob", jobRepository)
-                .start(interesStep)
+                .start(interesMasterStep)
                 .listener(bancoJobListener)
                 .build();
     }
