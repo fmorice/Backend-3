@@ -1,4 +1,9 @@
-HELP.md
+# Ignore local keystore for HTTPS demo
+keystore.p12
+
+target/
+.idea/
+*.imlHELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
