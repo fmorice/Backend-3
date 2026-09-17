@@ -1,4 +1,4 @@
-# Banco XYZ – Backend for Frontend (BFF) – Semana 5
+
 
 ## 1. Nombre del proyecto
 
