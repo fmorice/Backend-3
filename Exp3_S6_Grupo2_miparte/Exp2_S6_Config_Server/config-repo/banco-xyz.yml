@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: banco-xyz
+example:
+  message: "Propiedad de ejemplo desde el repo de configuración"
