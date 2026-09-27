@@ -1,0 +1,30 @@
+services:
+  kafka:
+    image: apache/kafka:3.8.0
+    container_name: banco-xyz-kafka
+    restart: unless-stopped
+    ports:
+      - "9092:9092"
+    environment:
+      # Un solo broker para entorno local; el factor de replicación se mantiene en 1.
+      KAFKA_NODE_ID: "1"
+      KAFKA_PROCESS_ROLES: "broker,controller"
+      KAFKA_CONTROLLER_LISTENER_NAMES: "CONTROLLER"
+      # Listener externo para apps locales en localhost:9092 y listener interno del controlador en 9093.
+      KAFKA_LISTENERS: "PLAINTEXT://:9092,CONTROLLER://:9093"
+      # Las apps Java locales se conectan a localhost:9092.
+      KAFKA_ADVERTISED_LISTENERS: "PLAINTEXT://localhost:9092"
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: "CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT"
+      KAFKA_CONTROLLER_QUORUM_VOTERS: "1@kafka:9093"
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: "1"
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: "1"
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: "1"
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+      KAFKA_NUM_PARTITIONS: "3"
+      KAFKA_DEFAULT_REPLICATION_FACTOR: "1"
+    volumes:
+      # Persistencia local para no perder datos del broker al reiniciar.
+      - kafka_data:/var/lib/kafka/data
+
+volumes:
+  kafka_data:
