@@ -1,3 +1,5 @@
-com\bancoxyz\cliente\ClienteApiApplication.class
-com\bancoxyz\cliente\ClienteController.class
-com\bancoxyz\cliente\model\Cliente.class
+com/bancoxyz/cliente/TransferenciaConsumer.class
+com/bancoxyz/cliente/TransferenciaEvent.class
+com/bancoxyz/cliente/model/Cliente.class
+com/bancoxyz/cliente/ClienteController.class
+com/bancoxyz/cliente/ClienteApiApplication.class
