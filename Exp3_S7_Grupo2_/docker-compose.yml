@@ -1,0 +1,85 @@
+services:
+  kafka:
+    image: apache/kafka:3.8.0
+    container_name: banco-xyz-kafka
+    restart: unless-stopped
+    ports:
+      - "9092:9092"
+    environment:
+      # Un solo broker para entorno local; el factor de replicación se mantiene en 1.
+      KAFKA_NODE_ID: "1"
+      KAFKA_PROCESS_ROLES: "broker,controller"
+      KAFKA_CONTROLLER_LISTENER_NAMES: "CONTROLLER"
+      # Listener para la red de Docker y controlador en 9093.
+      KAFKA_LISTENERS: "PLAINTEXT://:9092,CONTROLLER://:9093"
+      # Las apps Java dentro de Docker se conectan usando el nombre del servicio: kafka:9092.
+      KAFKA_ADVERTISED_LISTENERS: "PLAINTEXT://kafka:9092"
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: "CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT"
+      KAFKA_CONTROLLER_QUORUM_VOTERS: "1@kafka:9093"
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: "1"
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: "1"
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: "1"
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+      KAFKA_NUM_PARTITIONS: "3"
+      KAFKA_DEFAULT_REPLICATION_FACTOR: "1"
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+    networks:
+      - banco-net
+
+  eureka-server:
+    build: ./Exp2_S6_Eureka_Server
+    container_name: eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - banco-net
+
+  config-server:
+    build: ./Exp2_S6_Config_Server
+    container_name: config-server
+    ports:
+      - "8888:8888"
+    depends_on:
+      - eureka-server
+    networks:
+      - banco-net
+
+  banco-api:
+    build: ./Exp2_S6_Banco_API
+    container_name: banco-api
+    ports:
+      - "8081:8081"
+    environment:
+      - SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+      - SPRING_CONFIG_IMPORT=optional:configserver:http://config-server:8888
+    depends_on:
+      - kafka
+      - eureka-server
+      - config-server
+    networks:
+      - banco-net
+
+  cliente-api:
+    build: ./Exp2_S6_Cliente_API
+    container_name: cliente-api
+    ports:
+      - "8082:8082"
+    environment:
+      - SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+      - SPRING_CONFIG_IMPORT=optional:configserver:http://config-server:8888
+    depends_on:
+      - kafka
+      - eureka-server
+      - config-server
+    networks:
+      - banco-net
+
+volumes:
+  kafka_data:
+
+networks:
+  banco-net:
+    driver: bridge
