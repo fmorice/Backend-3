@@ -1,0 +1,15 @@
+# Archivos del sistema
+.DS_Store
+desktop.ini
+
+# IntelliJ IDEA
+.idea/
+
+# Maven
+target/
+
+# Archivos temporales
+*.pid
+
+# Archivos de respaldo locales
+kafka-backup-inspect.json

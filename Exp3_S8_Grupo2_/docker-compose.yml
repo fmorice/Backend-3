@@ -1,0 +1,76 @@
+
+name: banco-xyz
+
+services:
+
+  eureka-server:
+    build: ./Exp2_S6_Eureka_Server
+    container_name: eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - banco-net
+
+
+  config-server:
+    build: ./Exp2_S6_Config_Server
+    container_name: config-server
+    ports:
+      - "8888:8888"
+    depends_on:
+      - eureka-server
+    networks:
+      - banco-net
+
+
+  banco-api:
+    build: ./Exp2_S6_Banco_API
+    container_name: banco-api
+    ports:
+      - "8081:8081"
+
+    environment:
+      # Kafka
+      - SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+
+      # Eureka
+      - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+      # Config Server
+      - SPRING_CONFIG_IMPORT=optional:configserver:http://config-server:8888
+
+    depends_on:
+      - eureka-server
+      - config-server
+
+    networks:
+      - banco-net
+
+
+  cliente-api:
+    build: ./Exp2_S6_Cliente_API
+    container_name: cliente-api
+    ports:
+      - "8082:8082"
+
+    environment:
+      # Kafka
+      - SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+
+      # Eureka
+      - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+      # Config Server
+      - SPRING_CONFIG_IMPORT=optional:configserver:http://config-server:8888
+
+    depends_on:
+      - eureka-server
+      - config-server
+
+    networks:
+      - banco-net
+
+
+networks:
+  banco-net:
+    external: true
