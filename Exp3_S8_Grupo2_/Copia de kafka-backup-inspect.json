@@ -1,0 +1,326 @@
+[
+    {
+        "Id": "82bd84446e5955de1bbe69413b5463e285a4084bb273b8f2c8216b1880585473",
+        "Created": "2026-09-27T20:45:38.18204847Z",
+        "Path": "/__cacert_entrypoint.sh",
+        "Args": [
+            "/etc/kafka/docker/run"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 3381,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-09-27T20:45:38.306042096Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:a45bbe8facc8f11fef65a06610af32f9f639f3598a4f8290c57347ff21486ba9",
+        "ResolvConfPath": "/var/lib/docker/containers/82bd84446e5955de1bbe69413b5463e285a4084bb273b8f2c8216b1880585473/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/82bd84446e5955de1bbe69413b5463e285a4084bb273b8f2c8216b1880585473/hostname",
+        "HostsPath": "/var/lib/docker/containers/82bd84446e5955de1bbe69413b5463e285a4084bb273b8f2c8216b1880585473/hosts",
+        "LogPath": "/var/lib/docker/containers/82bd84446e5955de1bbe69413b5463e285a4084bb273b8f2c8216b1880585473/82bd84446e5955de1bbe69413b5463e285a4084bb273b8f2c8216b1880585473-json.log",
+        "Name": "/banco-xyz-kafka",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "exp3_s7_grupo2_kafka_data:/var/lib/kafka/data:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "exp3_s7_grupo2_default",
+            "PortBindings": {
+                "9092/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9092"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "82bd84446e5955de1bbe69413b5463e285a4084bb273b8f2c8216b1880585473",
+                "LowerDir": "/var/lib/docker/overlay2/ea4e644040728ef1ce073b5bd9e3e9215151231ec9127f01dd158dbcfe3a2e96-init/diff:/var/lib/docker/overlay2/0e2945147512167f3da6c80de6eb8b4f4c1b57457ac59ce3ade3e161b8d6b254/diff:/var/lib/docker/overlay2/fc3d062422dc88a90b3b95df8aa6c39540e9ddc1594254836d1d481fc1c4cb36/diff:/var/lib/docker/overlay2/859a030e17f793641f97dd5aab0bd84b5981be09dbdaaa84fbe78236b4b601f1/diff:/var/lib/docker/overlay2/5218add496112521944552f87dede9750b0d16b2a09669b29b5f06e6286d376a/diff:/var/lib/docker/overlay2/70f20e1da4564e8a29a91746909e0ca50d6d190264f1b20d1b9e4bb7b491f2e7/diff:/var/lib/docker/overlay2/a380ccbcc9381255ee63a57dc2c416eba2e201a5625f34d4a32a6b557922f7ba/diff:/var/lib/docker/overlay2/6860be0fba4ff807c2ec3f8e67b1bb571e58afc39d742bd661831d89d377fd5a/diff:/var/lib/docker/overlay2/322ff25a5e7c69a6188564082197d0dc6b68c15585d1d0d13ec769ea8e79e9bc/diff:/var/lib/docker/overlay2/79903f6ebdcc11dbae215bf2a2efb89921440ad6f61972eb0b889d2aef548f46/diff:/var/lib/docker/overlay2/0b58d2901085e5168e44caf4e35e933b276463e1d25924716ec2659f0fa1aff1/diff",
+                "MergedDir": "/var/lib/docker/overlay2/ea4e644040728ef1ce073b5bd9e3e9215151231ec9127f01dd158dbcfe3a2e96/merged",
+                "UpperDir": "/var/lib/docker/overlay2/ea4e644040728ef1ce073b5bd9e3e9215151231ec9127f01dd158dbcfe3a2e96/diff",
+                "WorkDir": "/var/lib/docker/overlay2/ea4e644040728ef1ce073b5bd9e3e9215151231ec9127f01dd158dbcfe3a2e96/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "exp3_s7_grupo2_kafka_data",
+                "Source": "/var/lib/docker/volumes/exp3_s7_grupo2_kafka_data/_data",
+                "Destination": "/var/lib/kafka/data",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "32c57b9c3f6f568ef04a390716c85ee6fd66ae107e1ab0090a71be7e7f7473c3",
+                "Source": "/var/lib/docker/volumes/32c57b9c3f6f568ef04a390716c85ee6fd66ae107e1ab0090a71be7e7f7473c3/_data",
+                "Destination": "/etc/kafka/secrets",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "bb78c98b054f672b02d8393094feb6df847e4f5dc19aef3e9c95b1870b864aec",
+                "Source": "/var/lib/docker/volumes/bb78c98b054f672b02d8393094feb6df847e4f5dc19aef3e9c95b1870b864aec/_data",
+                "Destination": "/mnt/shared/config",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "82bd84446e59",
+            "Domainname": "",
+            "User": "appuser",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "9092/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "KAFKA_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093",
+                "KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR=1",
+                "KAFKA_DEFAULT_REPLICATION_FACTOR=1",
+                "KAFKA_CONTROLLER_LISTENER_NAMES=CONTROLLER",
+                "KAFKA_TRANSACTION_STATE_LOG_MIN_ISR=1",
+                "KAFKA_AUTO_CREATE_TOPICS_ENABLE=true",
+                "KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092",
+                "KAFKA_NUM_PARTITIONS=3",
+                "KAFKA_NODE_ID=1",
+                "KAFKA_CONTROLLER_QUORUM_VOTERS=1@kafka:9093",
+                "KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1",
+                "KAFKA_LISTENER_SECURITY_PROTOCOL_MAP=CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT",
+                "KAFKA_PROCESS_ROLES=broker,controller",
+                "PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "JAVA_HOME=/opt/java/openjdk",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8",
+                "JAVA_VERSION=jdk-21.0.4+7"
+            ],
+            "Cmd": [
+                "/etc/kafka/docker/run"
+            ],
+            "Image": "apache/kafka:3.8.0",
+            "Volumes": {
+                "/etc/kafka/secrets": {},
+                "/mnt/shared/config": {},
+                "/var/lib/kafka/data": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/__cacert_entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "57e8c91b56f682904a36811adb373fe18e465bfd2c978f148793fed31cfb6290",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:a45bbe8facc8f11fef65a06610af32f9f639f3598a4f8290c57347ff21486ba9",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "exp3_s7_grupo2",
+                "com.docker.compose.project.config_files": "/Users/florenciamorice/Documents/GitHub/Backend-3/Exp3_S7_Grupo2/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/Users/florenciamorice/Documents/GitHub/Backend-3/Exp3_S7_Grupo2",
+                "com.docker.compose.service": "kafka",
+                "com.docker.compose.version": "2.40.0",
+                "maintainer": "Apache Kafka",
+                "org.label-schema.build-date": "2024-07-23",
+                "org.label-schema.description": "Apache Kafka",
+                "org.label-schema.name": "kafka",
+                "org.label-schema.vcs-url": "https://github.com/apache/kafka"
+            },
+            "StopTimeout": 1
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "6de331c00686531ec2adee637e9a70c81a62075c88d643dd024609f423479e18",
+            "SandboxKey": "/var/run/docker/netns/6de331c00686",
+            "Ports": {
+                "9092/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "9092"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "9092"
+                    }
+                ]
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "banco-net": {
+                    "IPAMConfig": {},
+                    "Links": null,
+                    "Aliases": [
+                        "kafka"
+                    ],
+                    "MacAddress": "8a:e1:cf:c2:46:78",
+                    "DriverOpts": {},
+                    "GwPriority": 0,
+                    "NetworkID": "e0863a70a92b65d337f04251e2f5e567230066ee2837e178c56c4af49efc9d62",
+                    "EndpointID": "ab37c1b93bf0efaee53318b70dc2f646ee87f15f396adf1be491ff21592b968c",
+                    "Gateway": "172.21.0.1",
+                    "IPAddress": "172.21.0.3",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "banco-xyz-kafka",
+                        "kafka",
+                        "82bd84446e59"
+                    ]
+                },
+                "exp3_s7_grupo2_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "banco-xyz-kafka",
+                        "kafka"
+                    ],
+                    "MacAddress": "3a:1c:ad:93:ec:48",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "5188a93210f753b1d76e42735182f636460128cf913e8d3c60e419fb2be923e3",
+                    "EndpointID": "58418410ac386431701e8f44686f78bedc00c6742003fc0d3dfa2bda03c4d6d3",
+                    "Gateway": "172.20.0.1",
+                    "IPAddress": "172.20.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "banco-xyz-kafka",
+                        "kafka",
+                        "82bd84446e59"
+                    ]
+                }
+            }
+        }
+    }
+]

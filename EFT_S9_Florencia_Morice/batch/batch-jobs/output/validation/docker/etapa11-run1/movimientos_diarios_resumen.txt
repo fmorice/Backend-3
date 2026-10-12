@@ -1,0 +1,18 @@
+job=movimientosReporteDiarioJob
+archivo_entrada=/app/input/movimientos_financieros_diarios.csv
+archivo_validos=/app/output/movimientos_diarios_validos.csv
+archivo_rechazados=/app/output/movimientos_diarios_rechazados.csv
+registros_leidos=1000
+registros_escritos_despues_validacion_tecnica=391
+registros_pendientes_decision_negocio=71
+registros_aceptados_reglas_negocio_confirmadas=0
+registros_sin_decision_negocio=320
+registros_rechazados=609
+errores_lectura=0
+errores_escritura=0
+conciliacion_ok=true
+conciliacion=leidos=escritos+rechazados+errores_lectura+errores_escritura
+regla_tecnica=campos obligatorios, fecha valida, monto numerico y tipo reconocido
+reglas_negocio_confirmadas=ninguna; ningun registro se marca como aceptado por negocio
+regla_pendiente_de_confirmacion=montos <= 0 se mantienen pendientes; no se aceptan ni rechazan automaticamente
+lista_tipos_admitidos_pendiente_de_confirmacion=credito,debito,deposito,retiro,compra,pago

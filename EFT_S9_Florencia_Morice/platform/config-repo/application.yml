@@ -1,0 +1,6 @@
+# Configuracion comun inicial. Las reglas de negocio se definiran en etapas posteriores.
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

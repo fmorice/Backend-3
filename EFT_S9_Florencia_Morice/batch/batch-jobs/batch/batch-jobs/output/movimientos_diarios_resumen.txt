@@ -1,0 +1,10 @@
+job=movimientosReporteDiarioJob
+archivo_entrada=/Users/florenciamorice/Documents/GitHub/Backend-3/EFT_S9_Florencia_Morice/data/semana_3/movimientos_financieros_diarios.csv
+archivo_validos=./batch/batch-jobs/output/movimientos_diarios_validos.csv
+archivo_rechazados=./batch/batch-jobs/output/movimientos_diarios_rechazados.csv
+registros_leidos=0
+registros_procesados=0
+registros_rechazados=0
+registros_pendientes_negocio=0
+regla_tecnica=campos obligatorios, fecha valida, monto numerico y tipo reconocido
+regla_negocio_pendiente=montos <= 0 requieren confirmacion del negocio antes de ser aceptados o rechazados

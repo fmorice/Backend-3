@@ -1,0 +1,6 @@
+.git
+.env
+**/target
+target
+data/semana_3
+batch/batch-jobs/output

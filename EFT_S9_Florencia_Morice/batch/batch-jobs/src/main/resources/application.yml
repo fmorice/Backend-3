@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: batch-jobs
+  config:
+    import: "optional:configserver:${CONFIG_SERVER_URI:http://localhost:8888}"
+  datasource:
+    url: jdbc:h2:mem:batchdb;MODE=PostgreSQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ${BATCH_DB_PASSWORD}
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:/org/springframework/batch/core/schema-h2.sql
+  batch:
+    job:
+      enabled: false
+    jdbc:
+      initialize-schema: always
+
+batch:
+  movimientos:
+    input-path: ${MOVIMIENTOS_INPUT_PATH:./data/semana_3/movimientos_financieros_diarios.csv}
+    output-dir: ${MOVIMIENTOS_OUTPUT_DIR:./batch/batch-jobs/output}
+    valid-output-file-name: movimientos_diarios_validos.csv
+    rejected-output-file-name: movimientos_diarios_rechazados.csv
+    summary-output-file-name: movimientos_diarios_resumen.txt
+
+server:
+  port: ${SERVER_PORT:8086}
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka/}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

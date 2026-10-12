@@ -1,0 +1,610 @@
+numero_fila,motivo,id,fecha,monto,tipo
+2,tipo de movimiento no reconocido,1,2024/03/05,1500,invalido
+3,fecha inválida o ambigua,2,11-12-2024,1000,credito
+4,fecha inválida o ambigua,3,02/04/2024,-200,debito
+5,tipo de movimiento no reconocido,4,2024/04/27,1200,invalido
+6,monto obligatorio,5,17-08-2024,,debito
+7,monto obligatorio; tipo de movimiento no reconocido,6,2024-09-26,,invalido
+13,fecha inválida o ambigua; tipo de movimiento no reconocido,12,03/06/2024,3000,invalido
+14,tipo de movimiento no reconocido,13,26-10-2024,700,invalido
+17,fecha inválida o ambigua; tipo de movimiento no reconocido,16,03-12-2024,1200,invalido
+18,monto obligatorio,17,21-02-2024,,debito
+20,tipo de movimiento no reconocido,19,14/08/2024,1000,invalido
+21,fecha inválida o ambigua; tipo de movimiento no reconocido,20,09/01/2024,700,invalido
+22,tipo de movimiento no reconocido,21,16/06/2024,-100,invalido
+23,tipo de movimiento no reconocido,22,2024/07/06,3000,invalido
+29,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,28,2024-13-01,,invalido
+30,tipo de movimiento no reconocido,29,2024/06/02,1000,invalido
+33,monto obligatorio; tipo de movimiento no reconocido,32,2024/08/07,,invalido
+34,monto obligatorio,33,16/10/2024,,debito
+35,tipo de movimiento no reconocido,34,2024-07-02,1500,desconocido
+40,monto obligatorio; tipo de movimiento no reconocido,39,26/01/2024,,invalido
+41,tipo de movimiento no reconocido,40,2024/05/30,-200,invalido
+44,tipo de movimiento no reconocido,43,22-01-2024,1000,invalido
+46,tipo de movimiento no reconocido,45,2024/07/17,800,invalido
+47,fecha inválida o ambigua,46,05/11/2024,-200,debito
+49,monto obligatorio,48,31-05-2024,,debito
+50,monto obligatorio; tipo de movimiento no reconocido,49,2024-04-15,,invalido
+51,tipo de movimiento no reconocido,50,2024/10/08,1200,invalido
+52,tipo de movimiento no reconocido,51,2024/08/16,800,invalido
+53,tipo de movimiento no reconocido,52,2024-09-22,800,invalido
+54,tipo de movimiento no reconocido,53,2024/05/22,3000,invalido
+55,fecha inválida o ambigua,54,2024-13-01,800,debito
+56,fecha inválida o ambigua; monto obligatorio,55,10-03-2024,,debito
+57,monto obligatorio,56,2024-10-08,,credito
+58,fecha inválida o ambigua,57,2024-13-01,1000,debito
+60,tipo de movimiento no reconocido,59,2024-08-17,800,invalido
+61,tipo de movimiento no reconocido,60,2024/06/25,-200,invalido
+62,fecha inválida o ambigua; tipo de movimiento no reconocido,61,01-01-2024,700,invalido
+63,fecha inválida o ambigua,62,10/04/2024,700,debito
+64,tipo de movimiento no reconocido,63,2024-05-16,1200,invalido
+65,monto obligatorio; tipo de movimiento no reconocido,64,2024-02-14,,invalido
+67,fecha inválida o ambigua; monto obligatorio,66,07/05/2024,,credito
+68,tipo de movimiento no reconocido,67,2024/08/04,1000,invalido
+72,fecha inválida o ambigua,71,01/05/2024,700,credito
+73,fecha inválida o ambigua; tipo de movimiento no reconocido,72,12/07/2024,1500,invalido
+76,monto obligatorio; tipo de movimiento no reconocido,75,2024-12-08,,invalido
+81,tipo de movimiento no reconocido,80,14-02-2024,1200,invalido
+84,monto obligatorio; tipo de movimiento no reconocido,83,16/10/2024,,invalido
+85,tipo de movimiento no reconocido,84,2024-07-29,700,invalido
+87,tipo de movimiento no reconocido,86,2024/07/11,500,invalido
+88,tipo de movimiento no reconocido,87,2024-12-08,800,invalido
+90,tipo de movimiento no reconocido,89,25/03/2024,800,invalido
+91,monto obligatorio,90,2024-07-01,,debito
+92,fecha inválida o ambigua,91,05-09-2024,-200,credito
+93,fecha inválida o ambigua,92,08-02-2024,800,debito
+95,fecha inválida o ambigua; tipo de movimiento no reconocido,94,09/09/2024,0,invalido
+96,tipo de movimiento no reconocido,95,28-06-2024,800,invalido
+98,fecha inválida o ambigua; tipo de movimiento no reconocido,97,06-06-2024,700,desconocido
+99,tipo de movimiento no reconocido,98,19-06-2024,700,invalido
+100,fecha inválida o ambigua,99,08/04/2024,800,credito
+101,fecha inválida o ambigua,100,06/11/2024,-100,credito
+103,fecha inválida o ambigua,102,08/11/2024,1000,debito
+104,tipo de movimiento no reconocido,103,19/06/2024,800,invalido
+107,tipo de movimiento no reconocido,106,2024-08-10,700,invalido
+109,fecha inválida o ambigua,108,11-09-2024,1500,debito
+110,tipo de movimiento no reconocido,109,2024-09-11,3000,invalido
+111,fecha inválida o ambigua,110,07/09/2024,800,credito
+112,tipo de movimiento no reconocido,111,28-03-2024,700,desconocido
+113,tipo de movimiento no reconocido,112,2024-02-16,800,invalido
+114,tipo de movimiento no reconocido,113,15-12-2024,3000,invalido
+115,fecha inválida o ambigua,114,12-10-2024,-200,debito
+116,tipo de movimiento no reconocido,115,2024/10/08,1000,invalido
+118,tipo de movimiento no reconocido,117,2024-12-04,800,invalido
+119,monto obligatorio,118,2024-09-09,,debito
+121,fecha inválida o ambigua,120,04-01-2024,1000,debito
+122,fecha inválida o ambigua,121,09/11/2024,1500,credito
+123,monto obligatorio,122,2024/05/17,,debito
+125,fecha inválida o ambigua,124,08/02/2024,-200,credito
+127,fecha inválida o ambigua; tipo de movimiento no reconocido,126,04/04/2024,-200,desconocido
+128,tipo de movimiento no reconocido,127,2024-12-06,-100,invalido
+129,monto obligatorio,128,2024-03-27,,debito
+132,tipo de movimiento no reconocido,131,2024-04-21,500,invalido
+133,tipo de movimiento no reconocido,132,2024/04/17,1500,desconocido
+135,monto obligatorio; tipo de movimiento no reconocido,134,2024/01/08,,invalido
+136,fecha inválida o ambigua; tipo de movimiento no reconocido,135,11-05-2024,1500,invalido
+137,fecha inválida o ambigua,136,01/04/2024,700,debito
+138,monto obligatorio; tipo de movimiento no reconocido,137,2024-05-13,,invalido
+140,tipo de movimiento no reconocido,139,2024-01-01,1200,invalido
+141,tipo de movimiento no reconocido,140,2024-09-20,700,invalido
+143,tipo de movimiento no reconocido,142,2024/04/11,1500,invalido
+146,fecha inválida o ambigua; tipo de movimiento no reconocido,145,01-02-2024,700,invalido
+149,fecha inválida o ambigua,148,2024-13-01,1500,debito
+150,monto obligatorio,149,23/12/2024,,debito
+153,monto obligatorio; tipo de movimiento no reconocido,152,2024/08/29,,invalido
+155,tipo de movimiento no reconocido,154,2024-06-01,700,desconocido
+156,tipo de movimiento no reconocido,155,2024/12/19,1200,invalido
+158,fecha inválida o ambigua; monto obligatorio,157,11/08/2024,,credito
+159,monto obligatorio,158,17/03/2024,,debito
+160,fecha inválida o ambigua,159,2024-13-01,1200,credito
+161,fecha inválida o ambigua,160,2024-13-01,800,credito
+166,fecha inválida o ambigua; tipo de movimiento no reconocido,165,07-03-2024,1000,invalido
+169,tipo de movimiento no reconocido,168,20/05/2024,3000,invalido
+171,monto obligatorio; tipo de movimiento no reconocido,170,19-07-2024,,invalido
+174,fecha inválida o ambigua,173,12-04-2024,800,credito
+176,monto obligatorio; tipo de movimiento no reconocido,175,15-08-2024,,invalido
+177,fecha inválida o ambigua; tipo de movimiento no reconocido,176,01-09-2024,700,invalido
+178,fecha inválida o ambigua; tipo de movimiento no reconocido,177,08/08/2024,1000,invalido
+180,monto obligatorio; tipo de movimiento no reconocido,179,2024/02/17,,invalido
+181,monto obligatorio,180,19/05/2024,,debito
+184,monto obligatorio,183,2024/04/11,,debito
+187,tipo de movimiento no reconocido,186,2024/12/04,1200,invalido
+189,fecha inválida o ambigua; tipo de movimiento no reconocido,188,04/09/2024,700,desconocido
+190,monto obligatorio,189,2024-12-12,,debito
+192,monto obligatorio; tipo de movimiento no reconocido,191,2024/12/24,,invalido
+194,fecha inválida o ambigua; monto obligatorio,193,02-05-2024,,credito
+195,tipo de movimiento no reconocido,194,2024-05-22,1500,invalido
+196,fecha inválida o ambigua,195,2024-13-01,3000,credito
+200,tipo de movimiento no reconocido,199,2024-10-14,0,invalido
+201,tipo de movimiento no reconocido,200,22-07-2024,700,invalido
+202,monto obligatorio; tipo de movimiento no reconocido,201,2024/01/13,,invalido
+203,tipo de movimiento no reconocido,202,2024-09-02,-200,invalido
+204,fecha inválida o ambigua,203,12-12-2024,700,debito
+207,fecha inválida o ambigua,206,2024-13-01,1200,credito
+208,fecha inválida o ambigua,207,09/03/2024,700,debito
+210,fecha inválida o ambigua,209,04-02-2024,-200,debito
+212,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,211,11-10-2024,,invalido
+213,monto obligatorio; tipo de movimiento no reconocido,212,2024-03-31,,invalido
+214,tipo de movimiento no reconocido,213,28-01-2024,1000,invalido
+215,fecha inválida o ambigua,214,2024-13-01,800,credito
+216,fecha inválida o ambigua,215,03-06-2024,1000,debito
+217,fecha inválida o ambigua,216,05/06/2024,1000,debito
+218,monto obligatorio,217,2024-12-17,,debito
+220,tipo de movimiento no reconocido,219,15/11/2024,800,invalido
+222,monto obligatorio,221,2024-03-28,,debito
+223,tipo de movimiento no reconocido,222,2024-01-07,0,invalido
+225,tipo de movimiento no reconocido,224,2024/04/21,3000,invalido
+227,tipo de movimiento no reconocido,226,2024/04/23,800,invalido
+228,tipo de movimiento no reconocido,227,2024/03/03,3000,invalido
+229,tipo de movimiento no reconocido,228,2024/03/11,-200,invalido
+231,tipo de movimiento no reconocido,230,20/09/2024,800,invalido
+232,fecha inválida o ambigua,231,2024-13-01,1500,debito
+233,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,232,09-04-2024,,invalido
+235,tipo de movimiento no reconocido,234,2024/01/26,1500,desconocido
+236,tipo de movimiento no reconocido,235,2024/08/16,0,invalido
+237,tipo de movimiento no reconocido,236,26/04/2024,700,invalido
+240,monto obligatorio,239,29/03/2024,,debito
+242,tipo de movimiento no reconocido,241,30-11-2024,700,invalido
+244,tipo de movimiento no reconocido,243,2024-11-16,1500,invalido
+246,fecha inválida o ambigua,245,04-08-2024,-200,debito
+247,monto obligatorio,246,2024-02-04,,debito
+250,fecha inválida o ambigua,249,03/09/2024,1000,debito
+252,fecha inválida o ambigua,251,12-06-2024,700,credito
+253,tipo de movimiento no reconocido,252,24-12-2024,1500,invalido
+254,tipo de movimiento no reconocido,253,29/02/2024,1200,invalido
+256,tipo de movimiento no reconocido,255,2024/05/15,1200,desconocido
+257,tipo de movimiento no reconocido,256,27-09-2024,1200,invalido
+258,fecha inválida o ambigua,257,2024-13-01,800,credito
+259,fecha inválida o ambigua,258,12/10/2024,3000,credito
+262,fecha inválida o ambigua; monto obligatorio,261,2024-13-01,,debito
+263,fecha inválida o ambigua,262,2024-13-01,800,debito
+264,tipo de movimiento no reconocido,263,2024/02/11,1200,invalido
+265,tipo de movimiento no reconocido,264,2024/03/07,700,invalido
+266,tipo de movimiento no reconocido,265,15/10/2024,0,invalido
+267,monto obligatorio,266,18/10/2024,,debito
+268,tipo de movimiento no reconocido,267,2024/05/10,3000,desconocido
+269,tipo de movimiento no reconocido,268,2024/05/22,3000,desconocido
+271,fecha inválida o ambigua,270,2024-13-01,1500,debito
+276,fecha inválida o ambigua; tipo de movimiento no reconocido,275,02-10-2024,-200,desconocido
+281,tipo de movimiento no reconocido,280,2024-04-30,0,invalido
+282,monto obligatorio,281,28-03-2024,,debito
+283,fecha inválida o ambigua,282,10-06-2024,1500,debito
+286,tipo de movimiento no reconocido,285,2024-11-01,3000,desconocido
+288,tipo de movimiento no reconocido,287,2024/06/25,1500,invalido
+290,fecha inválida o ambigua; tipo de movimiento no reconocido,289,07/02/2024,1200,desconocido
+292,tipo de movimiento no reconocido,291,2024-01-05,1500,invalido
+293,tipo de movimiento no reconocido,292,2024-04-23,800,invalido
+296,fecha inválida o ambigua,295,2024-13-01,3000,credito
+301,tipo de movimiento no reconocido,300,2024-11-22,500,invalido
+302,monto obligatorio; tipo de movimiento no reconocido,301,2024/04/25,,invalido
+303,tipo de movimiento no reconocido,302,19/09/2024,500,invalido
+306,tipo de movimiento no reconocido,305,18-01-2024,800,invalido
+307,monto obligatorio,306,2024/04/27,,debito
+308,fecha inválida o ambigua; tipo de movimiento no reconocido,307,01/04/2024,3000,invalido
+309,monto obligatorio,308,23-04-2024,,credito
+310,tipo de movimiento no reconocido,309,2024-05-17,1200,invalido
+312,fecha inválida o ambigua,311,2024-13-01,1500,debito
+315,monto obligatorio,314,20/02/2024,,debito
+317,monto obligatorio; tipo de movimiento no reconocido,316,2024/03/08,,invalido
+322,monto obligatorio,321,2024/01/18,,debito
+325,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,324,01-10-2024,,invalido
+329,tipo de movimiento no reconocido,328,19-04-2024,800,desconocido
+331,monto obligatorio; tipo de movimiento no reconocido,330,2024/06/11,,invalido
+332,fecha inválida o ambigua; monto obligatorio,331,08/02/2024,,debito
+333,tipo de movimiento no reconocido,332,29-12-2024,1500,invalido
+334,tipo de movimiento no reconocido,333,26-07-2024,1500,invalido
+335,monto obligatorio; tipo de movimiento no reconocido,334,2024-12-22,,invalido
+336,tipo de movimiento no reconocido,335,21-03-2024,1200,invalido
+339,tipo de movimiento no reconocido,338,14/09/2024,-200,invalido
+340,tipo de movimiento no reconocido,339,2024-07-18,1500,invalido
+342,fecha inválida o ambigua,341,11/01/2024,1200,debito
+346,tipo de movimiento no reconocido,345,2024-05-25,1500,invalido
+347,monto obligatorio; tipo de movimiento no reconocido,346,29/11/2024,,invalido
+348,tipo de movimiento no reconocido,347,2024/07/31,700,desconocido
+349,fecha inválida o ambigua,348,01/08/2024,3000,credito
+351,fecha inválida o ambigua,350,06/10/2024,3000,debito
+352,fecha inválida o ambigua,351,09/07/2024,3000,credito
+355,monto obligatorio,354,2024-11-18,,debito
+357,tipo de movimiento no reconocido,356,2024-08-12,800,desconocido
+358,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,357,01-04-2024,,invalido
+359,fecha inválida o ambigua,358,07/02/2024,3000,debito
+360,monto obligatorio,359,2024-04-29,,debito
+361,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,360,05/03/2024,,invalido
+363,tipo de movimiento no reconocido,362,16/03/2024,700,invalido
+364,tipo de movimiento no reconocido,363,2024-03-07,-200,invalido
+365,tipo de movimiento no reconocido,364,30/01/2024,800,desconocido
+366,tipo de movimiento no reconocido,365,2024/02/20,700,invalido
+367,monto obligatorio; tipo de movimiento no reconocido,366,29/09/2024,,invalido
+368,monto obligatorio; tipo de movimiento no reconocido,367,22/10/2024,,desconocido
+370,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,369,05-09-2024,,invalido
+371,monto obligatorio,370,2024-10-18,,debito
+375,monto obligatorio,374,19/09/2024,,credito
+376,monto obligatorio,375,29/03/2024,,credito
+377,fecha inválida o ambigua,376,10/08/2024,1200,credito
+378,fecha inválida o ambigua; monto obligatorio,377,03-08-2024,,credito
+381,monto obligatorio,380,14-01-2024,,credito
+382,monto obligatorio; tipo de movimiento no reconocido,381,2024-03-11,,invalido
+384,tipo de movimiento no reconocido,383,2024/03/22,-200,desconocido
+385,fecha inválida o ambigua,384,04-03-2024,3000,debito
+387,fecha inválida o ambigua,386,2024-13-01,-200,credito
+388,fecha inválida o ambigua,387,01-11-2024,500,credito
+389,tipo de movimiento no reconocido,388,2024-03-13,800,invalido
+391,tipo de movimiento no reconocido,390,2024/01/26,700,desconocido
+392,tipo de movimiento no reconocido,391,2024/04/02,-200,invalido
+393,fecha inválida o ambigua,392,2024-13-01,3000,debito
+394,tipo de movimiento no reconocido,393,2024/11/13,1200,invalido
+395,fecha inválida o ambigua; tipo de movimiento no reconocido,394,06-03-2024,500,invalido
+396,tipo de movimiento no reconocido,395,30-01-2024,-200,invalido
+399,tipo de movimiento no reconocido,398,2024-11-13,3000,invalido
+400,tipo de movimiento no reconocido,399,2024/05/27,3000,invalido
+401,fecha inválida o ambigua,400,09/01/2024,3000,debito
+402,tipo de movimiento no reconocido,401,2024/07/18,1000,invalido
+404,tipo de movimiento no reconocido,403,2024-12-09,3000,invalido
+406,tipo de movimiento no reconocido,405,2024-08-24,3000,invalido
+407,fecha inválida o ambigua; monto obligatorio,406,2024-13-01,,debito
+409,fecha inválida o ambigua,408,02-10-2024,800,credito
+410,fecha inválida o ambigua,409,04/03/2024,1500,debito
+411,fecha inválida o ambigua,410,05-10-2024,1500,credito
+412,fecha inválida o ambigua,411,01-11-2024,700,debito
+413,tipo de movimiento no reconocido,412,24/08/2024,700,invalido
+414,tipo de movimiento no reconocido,413,2024-06-02,-200,desconocido
+415,fecha inválida o ambigua; tipo de movimiento no reconocido,414,06/01/2024,1200,invalido
+416,monto obligatorio; tipo de movimiento no reconocido,415,2024-10-26,,invalido
+417,fecha inválida o ambigua,416,06-06-2024,3000,debito
+418,monto obligatorio,417,27/01/2024,,debito
+420,tipo de movimiento no reconocido,419,29-12-2024,700,invalido
+421,tipo de movimiento no reconocido,420,2024/03/24,1500,desconocido
+422,monto obligatorio; tipo de movimiento no reconocido,421,2024-03-03,,desconocido
+423,tipo de movimiento no reconocido,422,2024/03/09,1500,invalido
+424,tipo de movimiento no reconocido,423,2024/01/13,700,invalido
+425,fecha inválida o ambigua,424,09/03/2024,1200,debito
+429,fecha inválida o ambigua,428,12-08-2024,-200,credito
+431,fecha inválida o ambigua; tipo de movimiento no reconocido,430,2024-13-01,-200,invalido
+432,monto obligatorio,431,2024/02/26,,debito
+433,monto obligatorio; tipo de movimiento no reconocido,432,2024-05-23,,invalido
+434,monto obligatorio; tipo de movimiento no reconocido,433,30-01-2024,,invalido
+435,tipo de movimiento no reconocido,434,2024/11/21,3000,invalido
+436,tipo de movimiento no reconocido,435,13-06-2024,800,invalido
+437,tipo de movimiento no reconocido,436,27-07-2024,1000,invalido
+440,fecha inválida o ambigua; tipo de movimiento no reconocido,439,2024-13-01,1200,invalido
+441,tipo de movimiento no reconocido,440,2024-10-13,1200,invalido
+442,monto obligatorio,441,17/07/2024,,debito
+444,tipo de movimiento no reconocido,443,2024/01/07,3000,invalido
+446,monto obligatorio,445,2024-10-15,,debito
+447,monto obligatorio; tipo de movimiento no reconocido,446,2024-12-06,,invalido
+448,fecha inválida o ambigua; tipo de movimiento no reconocido,447,04-07-2024,700,desconocido
+449,fecha inválida o ambigua; monto obligatorio,448,08-06-2024,,credito
+450,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,449,2024-13-01,,invalido
+451,fecha inválida o ambigua; tipo de movimiento no reconocido,450,08/05/2024,3000,invalido
+453,fecha inválida o ambigua,452,2024-13-01,1500,credito
+454,tipo de movimiento no reconocido,453,2024-05-22,1000,invalido
+457,tipo de movimiento no reconocido,456,2024-05-31,-100,invalido
+464,monto obligatorio,463,2024-11-25,,credito
+467,monto obligatorio; tipo de movimiento no reconocido,466,2024/07/08,,invalido
+469,monto obligatorio,468,2024-10-13,,debito
+471,fecha inválida o ambigua; tipo de movimiento no reconocido,470,06-08-2024,700,invalido
+472,fecha inválida o ambigua,471,05-10-2024,500,credito
+474,fecha inválida o ambigua,473,07/11/2024,500,credito
+476,monto obligatorio; tipo de movimiento no reconocido,475,2024-09-07,,invalido
+477,fecha inválida o ambigua,476,05-09-2024,1200,debito
+478,fecha inválida o ambigua,477,2024-13-01,3000,debito
+479,fecha inválida o ambigua,478,2024-13-01,700,debito
+483,monto obligatorio,482,17/12/2024,,debito
+485,fecha inválida o ambigua; monto obligatorio,484,12/08/2024,,debito
+486,tipo de movimiento no reconocido,485,2024/08/04,1500,desconocido
+487,tipo de movimiento no reconocido,486,2024/06/06,1500,invalido
+488,fecha inválida o ambigua,487,11-05-2024,3000,credito
+489,tipo de movimiento no reconocido,488,2024/02/05,800,desconocido
+490,fecha inválida o ambigua,489,09-05-2024,3000,credito
+491,fecha inválida o ambigua; tipo de movimiento no reconocido,490,2024-13-01,800,invalido
+492,monto obligatorio,491,2024/10/04,,debito
+495,fecha inválida o ambigua; tipo de movimiento no reconocido,494,04/11/2024,700,invalido
+496,fecha inválida o ambigua,495,06/11/2024,-100,debito
+497,fecha inválida o ambigua,496,2024-13-01,1000,credito
+498,tipo de movimiento no reconocido,497,2024/05/27,1500,desconocido
+500,tipo de movimiento no reconocido,499,2024/02/12,1200,desconocido
+503,fecha inválida o ambigua,502,04/12/2024,-200,debito
+504,tipo de movimiento no reconocido,503,22/02/2024,700,invalido
+505,tipo de movimiento no reconocido,504,2024-11-04,1200,desconocido
+506,fecha inválida o ambigua,505,08/05/2024,1000,debito
+507,tipo de movimiento no reconocido,506,2024/01/19,1200,invalido
+508,tipo de movimiento no reconocido,507,15-05-2024,700,invalido
+510,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,509,01-09-2024,,desconocido
+511,tipo de movimiento no reconocido,510,2024-03-20,800,invalido
+513,tipo de movimiento no reconocido,512,2024/05/17,500,invalido
+515,tipo de movimiento no reconocido,514,24/11/2024,700,desconocido
+519,monto obligatorio; tipo de movimiento no reconocido,518,21-10-2024,,invalido
+520,tipo de movimiento no reconocido,519,28/04/2024,1500,invalido
+521,fecha inválida o ambigua; monto obligatorio,520,12-11-2024,,credito
+522,monto obligatorio; tipo de movimiento no reconocido,521,2024/07/20,,invalido
+523,fecha inválida o ambigua; monto obligatorio,522,03-06-2024,,debito
+524,fecha inválida o ambigua,523,09/10/2024,1500,debito
+526,fecha inválida o ambigua; tipo de movimiento no reconocido,525,02/03/2024,800,invalido
+527,fecha inválida o ambigua; tipo de movimiento no reconocido,526,08-12-2024,1200,invalido
+530,monto obligatorio; tipo de movimiento no reconocido,529,2024/06/08,,invalido
+531,tipo de movimiento no reconocido,530,24/09/2024,700,invalido
+533,monto obligatorio,532,28-10-2024,,debito
+534,tipo de movimiento no reconocido,533,2024-04-28,700,invalido
+535,fecha inválida o ambigua; tipo de movimiento no reconocido,534,2024-13-01,3000,invalido
+537,fecha inválida o ambigua; tipo de movimiento no reconocido,536,12/08/2024,700,invalido
+538,tipo de movimiento no reconocido,537,22/05/2024,700,invalido
+540,monto obligatorio,539,2024/07/03,,debito
+541,fecha inválida o ambigua; tipo de movimiento no reconocido,540,03-03-2024,700,desconocido
+542,tipo de movimiento no reconocido,541,2024/05/11,1000,invalido
+544,tipo de movimiento no reconocido,543,2024/12/03,700,desconocido
+545,tipo de movimiento no reconocido,544,2024/02/08,700,desconocido
+547,tipo de movimiento no reconocido,546,18-12-2024,1200,invalido
+548,tipo de movimiento no reconocido,547,2024/08/09,800,invalido
+549,tipo de movimiento no reconocido,548,2024-09-29,1000,invalido
+550,tipo de movimiento no reconocido,549,2024/04/24,800,invalido
+551,fecha inválida o ambigua,550,01-09-2024,3000,credito
+552,fecha inválida o ambigua,551,05-01-2024,500,debito
+553,tipo de movimiento no reconocido,552,2024/08/23,-200,invalido
+555,tipo de movimiento no reconocido,554,25-04-2024,1500,desconocido
+556,fecha inválida o ambigua; tipo de movimiento no reconocido,555,04/04/2024,1500,invalido
+557,tipo de movimiento no reconocido,556,24-05-2024,700,invalido
+558,fecha inválida o ambigua,557,06/01/2024,1000,debito
+560,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,559,01/11/2024,,invalido
+561,fecha inválida o ambigua,560,2024-13-01,1000,debito
+562,tipo de movimiento no reconocido,561,25/09/2024,-200,invalido
+564,tipo de movimiento no reconocido,563,2024-06-19,800,invalido
+565,tipo de movimiento no reconocido,564,2024-05-06,3000,invalido
+568,fecha inválida o ambigua; tipo de movimiento no reconocido,567,12-11-2024,1000,invalido
+569,tipo de movimiento no reconocido,568,19/05/2024,700,invalido
+570,tipo de movimiento no reconocido,569,2024-02-27,800,invalido
+572,fecha inválida o ambigua; monto obligatorio,571,12-11-2024,,credito
+573,fecha inválida o ambigua; tipo de movimiento no reconocido,572,03/11/2024,3000,invalido
+574,tipo de movimiento no reconocido,573,2024-04-07,1200,invalido
+575,monto obligatorio; tipo de movimiento no reconocido,574,2024-06-11,,invalido
+576,fecha inválida o ambigua,575,2024-13-01,3000,debito
+577,fecha inválida o ambigua; monto obligatorio,576,01/04/2024,,credito
+578,fecha inválida o ambigua; tipo de movimiento no reconocido,577,03/02/2024,-200,desconocido
+579,fecha inválida o ambigua; tipo de movimiento no reconocido,578,10/02/2024,700,invalido
+580,tipo de movimiento no reconocido,579,2024/01/04,-100,invalido
+581,monto obligatorio,580,2024-11-27,,debito
+582,tipo de movimiento no reconocido,581,2024/01/19,700,invalido
+583,tipo de movimiento no reconocido,582,2024-02-29,1000,desconocido
+585,tipo de movimiento no reconocido,584,2024-09-29,1500,invalido
+589,tipo de movimiento no reconocido,588,31/01/2024,1500,invalido
+590,fecha inválida o ambigua,589,2024-13-01,1500,debito
+591,tipo de movimiento no reconocido,590,2024/05/13,700,invalido
+593,tipo de movimiento no reconocido,592,26-06-2024,700,invalido
+595,tipo de movimiento no reconocido,594,2024/03/05,700,invalido
+598,tipo de movimiento no reconocido,597,2024/10/05,1500,invalido
+599,fecha inválida o ambigua; tipo de movimiento no reconocido,598,2024-13-01,1200,invalido
+604,fecha inválida o ambigua; tipo de movimiento no reconocido,603,02/11/2024,1200,invalido
+605,fecha inválida o ambigua,604,09/01/2024,700,debito
+607,tipo de movimiento no reconocido,606,27/07/2024,-100,invalido
+610,monto obligatorio; tipo de movimiento no reconocido,609,2024/09/15,,desconocido
+611,fecha inválida o ambigua,610,10/08/2024,1500,debito
+612,tipo de movimiento no reconocido,611,22/07/2024,700,invalido
+614,monto obligatorio,613,17-07-2024,,credito
+617,fecha inválida o ambigua; tipo de movimiento no reconocido,616,08-05-2024,-200,invalido
+618,tipo de movimiento no reconocido,617,15/05/2024,1000,invalido
+620,fecha inválida o ambigua,619,10/12/2024,1000,debito
+623,tipo de movimiento no reconocido,622,2024/09/11,-200,invalido
+624,monto obligatorio,623,18-04-2024,,credito
+627,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,626,07/01/2024,,invalido
+628,monto obligatorio,627,21/03/2024,,credito
+629,tipo de movimiento no reconocido,628,2024-09-26,700,invalido
+631,tipo de movimiento no reconocido,630,2024-01-10,1500,invalido
+632,tipo de movimiento no reconocido,631,14/10/2024,1200,invalido
+633,tipo de movimiento no reconocido,632,2024/06/26,-100,invalido
+634,fecha inválida o ambigua,633,2024-13-01,1500,credito
+635,fecha inválida o ambigua; tipo de movimiento no reconocido,634,07/11/2024,3000,invalido
+636,tipo de movimiento no reconocido,635,20/11/2024,3000,desconocido
+637,fecha inválida o ambigua; tipo de movimiento no reconocido,636,2024-13-01,800,invalido
+638,tipo de movimiento no reconocido,637,2024-07-30,1200,invalido
+640,tipo de movimiento no reconocido,639,16-05-2024,1000,desconocido
+647,monto obligatorio,646,23/08/2024,,debito
+649,tipo de movimiento no reconocido,648,2024-10-03,1000,invalido
+652,monto obligatorio,651,23-08-2024,,debito
+657,fecha inválida o ambigua; tipo de movimiento no reconocido,656,05-03-2024,700,invalido
+658,tipo de movimiento no reconocido,657,13-04-2024,3000,invalido
+659,tipo de movimiento no reconocido,658,15/09/2024,1000,desconocido
+660,fecha inválida o ambigua; tipo de movimiento no reconocido,659,03/02/2024,1000,invalido
+661,fecha inválida o ambigua,660,01-02-2024,-200,debito
+662,tipo de movimiento no reconocido,661,14-01-2024,-200,invalido
+663,monto obligatorio,662,30-08-2024,,debito
+668,monto obligatorio,667,2024/04/28,,credito
+669,fecha inválida o ambigua,668,2024-13-01,800,debito
+670,fecha inválida o ambigua; tipo de movimiento no reconocido,669,06/05/2024,800,desconocido
+671,tipo de movimiento no reconocido,670,2024/11/13,700,invalido
+673,fecha inválida o ambigua; monto obligatorio,672,01/06/2024,,debito
+674,tipo de movimiento no reconocido,673,20-11-2024,800,invalido
+675,tipo de movimiento no reconocido,674,14-03-2024,-200,invalido
+677,tipo de movimiento no reconocido,676,2024/01/20,800,invalido
+679,fecha inválida o ambigua; tipo de movimiento no reconocido,678,07/12/2024,1000,invalido
+681,fecha inválida o ambigua,680,07-01-2024,700,debito
+682,fecha inválida o ambigua; tipo de movimiento no reconocido,681,2024-13-01,800,invalido
+683,fecha inválida o ambigua,682,10/12/2024,3000,credito
+684,monto obligatorio; tipo de movimiento no reconocido,683,2024-12-22,,invalido
+685,fecha inválida o ambigua; tipo de movimiento no reconocido,684,11/11/2024,800,invalido
+687,tipo de movimiento no reconocido,686,23-06-2024,-200,invalido
+689,tipo de movimiento no reconocido,688,2024-12-09,700,invalido
+690,fecha inválida o ambigua; tipo de movimiento no reconocido,689,02/06/2024,800,invalido
+691,monto obligatorio,690,2024-02-16,,debito
+692,fecha inválida o ambigua,691,01/06/2024,700,credito
+695,tipo de movimiento no reconocido,694,2024-06-25,800,invalido
+697,fecha inválida o ambigua; tipo de movimiento no reconocido,696,12/03/2024,1500,invalido
+698,fecha inválida o ambigua; tipo de movimiento no reconocido,697,04/11/2024,1000,invalido
+700,fecha inválida o ambigua,699,09/04/2024,1200,debito
+701,fecha inválida o ambigua,700,06-06-2024,-200,credito
+702,tipo de movimiento no reconocido,701,14-02-2024,-100,invalido
+704,fecha inválida o ambigua; tipo de movimiento no reconocido,703,06-09-2024,1500,invalido
+705,tipo de movimiento no reconocido,704,2024-04-15,1200,desconocido
+706,monto obligatorio; tipo de movimiento no reconocido,705,2024/06/05,,invalido
+707,fecha inválida o ambigua; tipo de movimiento no reconocido,706,09-11-2024,0,invalido
+710,monto obligatorio,709,2024/02/21,,credito
+711,fecha inválida o ambigua,710,11-03-2024,800,debito
+713,tipo de movimiento no reconocido,712,2024/05/04,800,invalido
+714,fecha inválida o ambigua,713,05-06-2024,800,credito
+719,fecha inválida o ambigua; monto obligatorio,718,04-07-2024,,credito
+720,monto obligatorio,719,2024/12/13,,debito
+721,fecha inválida o ambigua,720,2024-13-01,1200,debito
+722,fecha inválida o ambigua; monto obligatorio,721,2024-13-01,,credito
+724,monto obligatorio; tipo de movimiento no reconocido,723,2024/03/14,,invalido
+725,tipo de movimiento no reconocido,724,2024-03-10,800,invalido
+726,fecha inválida o ambigua; tipo de movimiento no reconocido,725,05-04-2024,1000,desconocido
+727,tipo de movimiento no reconocido,726,26-03-2024,0,invalido
+729,monto obligatorio,728,28/11/2024,,debito
+731,fecha inválida o ambigua; tipo de movimiento no reconocido,730,07/02/2024,-100,invalido
+732,fecha inválida o ambigua; tipo de movimiento no reconocido,731,04-07-2024,700,invalido
+735,monto obligatorio,734,2024/04/06,,debito
+737,tipo de movimiento no reconocido,736,24-02-2024,1200,desconocido
+740,tipo de movimiento no reconocido,739,2024/08/21,1500,desconocido
+741,fecha inválida o ambigua,740,2024-13-01,1000,debito
+742,fecha inválida o ambigua; tipo de movimiento no reconocido,741,2024-13-01,1200,invalido
+743,fecha inválida o ambigua,742,06/09/2024,1000,debito
+744,fecha inválida o ambigua,743,02/07/2024,-100,debito
+748,fecha inválida o ambigua; tipo de movimiento no reconocido,747,2024-13-01,1500,invalido
+750,fecha inválida o ambigua,749,12/04/2024,1500,credito
+751,monto obligatorio,750,18-12-2024,,debito
+752,monto obligatorio,751,26-09-2024,,credito
+753,tipo de movimiento no reconocido,752,2024/08/05,800,invalido
+754,monto obligatorio; tipo de movimiento no reconocido,753,2024-06-30,,invalido
+755,tipo de movimiento no reconocido,754,2024-10-24,500,invalido
+757,monto obligatorio,756,2024-06-15,,credito
+759,monto obligatorio,758,2024-02-22,,debito
+760,fecha inválida o ambigua,759,03-03-2024,3000,debito
+761,fecha inválida o ambigua,760,07-04-2024,1500,debito
+763,fecha inválida o ambigua,762,05-04-2024,1500,credito
+766,tipo de movimiento no reconocido,765,2024-01-17,700,invalido
+768,tipo de movimiento no reconocido,767,2024/10/05,-200,invalido
+769,monto obligatorio,768,2024-09-23,,debito
+770,monto obligatorio; tipo de movimiento no reconocido,769,14/05/2024,,invalido
+771,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,770,2024-13-01,,invalido
+772,tipo de movimiento no reconocido,771,2024/06/17,3000,invalido
+773,fecha inválida o ambigua; tipo de movimiento no reconocido,772,08-10-2024,-200,invalido
+774,monto obligatorio,773,24/10/2024,,credito
+775,fecha inválida o ambigua,774,09-04-2024,500,debito
+776,monto obligatorio,775,20/06/2024,,credito
+777,tipo de movimiento no reconocido,776,2024/02/23,-200,invalido
+779,monto obligatorio,778,15-08-2024,,credito
+780,fecha inválida o ambigua,779,10-07-2024,3000,credito
+781,tipo de movimiento no reconocido,780,13-05-2024,800,invalido
+782,fecha inválida o ambigua; monto obligatorio,781,11-12-2024,,debito
+783,tipo de movimiento no reconocido,782,2024-08-27,1500,invalido
+784,monto obligatorio,783,2024/10/26,,credito
+786,fecha inválida o ambigua; monto obligatorio,785,08-10-2024,,credito
+787,tipo de movimiento no reconocido,786,2024-11-03,1000,invalido
+788,monto obligatorio,787,2024-12-05,,debito
+790,fecha inválida o ambigua,789,01-07-2024,-100,credito
+792,fecha inválida o ambigua; tipo de movimiento no reconocido,791,06-12-2024,1000,invalido
+793,fecha inválida o ambigua; tipo de movimiento no reconocido,792,2024-13-01,1200,invalido
+795,monto obligatorio; tipo de movimiento no reconocido,794,20/05/2024,,invalido
+796,fecha inválida o ambigua,795,11-11-2024,700,debito
+797,fecha inválida o ambigua; tipo de movimiento no reconocido,796,12-02-2024,3000,desconocido
+799,fecha inválida o ambigua,798,03-04-2024,700,credito
+801,fecha inválida o ambigua; tipo de movimiento no reconocido,800,02-04-2024,1200,desconocido
+802,fecha inválida o ambigua; monto obligatorio,801,07-06-2024,,credito
+804,tipo de movimiento no reconocido,803,2024/05/06,1000,invalido
+805,monto obligatorio,804,2024/06/14,,credito
+806,monto obligatorio,805,2024/03/06,,credito
+807,fecha inválida o ambigua; tipo de movimiento no reconocido,806,09/09/2024,700,invalido
+809,fecha inválida o ambigua,808,2024-13-01,1000,debito
+811,fecha inválida o ambigua; tipo de movimiento no reconocido,810,08/02/2024,-200,invalido
+812,tipo de movimiento no reconocido,811,2024/05/04,1200,desconocido
+813,tipo de movimiento no reconocido,812,2024/08/22,700,desconocido
+814,fecha inválida o ambigua; monto obligatorio,813,07/09/2024,,debito
+815,tipo de movimiento no reconocido,814,2024-08-22,1000,invalido
+817,tipo de movimiento no reconocido,816,2024/06/22,1500,invalido
+823,fecha inválida o ambigua; tipo de movimiento no reconocido,822,06-02-2024,800,desconocido
+825,tipo de movimiento no reconocido,824,21-04-2024,700,desconocido
+828,tipo de movimiento no reconocido,827,27-08-2024,0,invalido
+829,tipo de movimiento no reconocido,828,2024/12/10,700,invalido
+831,tipo de movimiento no reconocido,830,22/10/2024,1500,invalido
+833,monto obligatorio,832,2024-03-13,,credito
+835,fecha inválida o ambigua; tipo de movimiento no reconocido,834,03-01-2024,800,desconocido
+836,tipo de movimiento no reconocido,835,30-10-2024,-200,invalido
+841,fecha inválida o ambigua,840,03/11/2024,1500,credito
+843,fecha inválida o ambigua,842,03-06-2024,1500,debito
+845,fecha inválida o ambigua,844,10/03/2024,1000,credito
+849,fecha inválida o ambigua,848,2024-13-01,3000,credito
+851,monto obligatorio,850,2024/11/15,,debito
+853,monto obligatorio,852,15/01/2024,,credito
+854,tipo de movimiento no reconocido,853,2024/12/04,700,invalido
+855,monto obligatorio,854,2024/10/17,,debito
+858,tipo de movimiento no reconocido,857,13/03/2024,-200,invalido
+860,fecha inválida o ambigua; tipo de movimiento no reconocido,859,11-09-2024,1500,invalido
+862,tipo de movimiento no reconocido,861,2024/11/12,1200,invalido
+864,tipo de movimiento no reconocido,863,26-03-2024,1200,invalido
+865,monto obligatorio; tipo de movimiento no reconocido,864,2024/08/04,,invalido
+866,tipo de movimiento no reconocido,865,30/01/2024,3000,invalido
+867,fecha inválida o ambigua; monto obligatorio,866,04/02/2024,,credito
+868,monto obligatorio,867,2024/08/26,,debito
+870,tipo de movimiento no reconocido,869,29/10/2024,1200,invalido
+871,monto obligatorio; tipo de movimiento no reconocido,870,31/05/2024,,invalido
+875,tipo de movimiento no reconocido,874,2024/07/31,700,invalido
+877,fecha inválida o ambigua,876,10/09/2024,1200,credito
+881,fecha inválida o ambigua; monto obligatorio,880,11/05/2024,,debito
+886,tipo de movimiento no reconocido,885,2024-09-01,1500,desconocido
+888,fecha inválida o ambigua; tipo de movimiento no reconocido,887,04/10/2024,1200,invalido
+890,monto obligatorio,889,2024/02/01,,debito
+893,tipo de movimiento no reconocido,892,2024-05-01,700,desconocido
+894,monto obligatorio; tipo de movimiento no reconocido,893,2024-04-01,,invalido
+897,tipo de movimiento no reconocido,896,26-10-2024,-200,invalido
+898,fecha inválida o ambigua,897,08-10-2024,1200,debito
+899,fecha inválida o ambigua; tipo de movimiento no reconocido,898,2024-13-01,1000,invalido
+901,tipo de movimiento no reconocido,900,2024-02-29,800,desconocido
+902,fecha inválida o ambigua,901,02-03-2024,1500,credito
+903,fecha inválida o ambigua; tipo de movimiento no reconocido,902,03-05-2024,800,invalido
+904,tipo de movimiento no reconocido,903,13/02/2024,500,invalido
+905,fecha inválida o ambigua; tipo de movimiento no reconocido,904,05/05/2024,1000,invalido
+906,tipo de movimiento no reconocido,905,2024-12-23,1500,desconocido
+910,fecha inválida o ambigua; tipo de movimiento no reconocido,909,11-06-2024,1200,invalido
+911,fecha inválida o ambigua; tipo de movimiento no reconocido,910,06/06/2024,800,invalido
+913,fecha inválida o ambigua; tipo de movimiento no reconocido,912,2024-13-01,-200,invalido
+915,tipo de movimiento no reconocido,914,2024/03/12,1000,desconocido
+916,tipo de movimiento no reconocido,915,2024/02/02,-200,invalido
+918,tipo de movimiento no reconocido,917,2024-07-10,1200,invalido
+919,monto obligatorio,918,2024/07/31,,credito
+925,tipo de movimiento no reconocido,924,2024/01/09,1500,invalido
+928,monto obligatorio,927,2024-10-18,,debito
+929,monto obligatorio,928,26-09-2024,,debito
+931,tipo de movimiento no reconocido,930,2024-04-12,700,invalido
+933,monto obligatorio,932,2024-10-01,,debito
+934,monto obligatorio,933,2024-07-19,,debito
+937,tipo de movimiento no reconocido,936,26/03/2024,1500,invalido
+938,monto obligatorio; tipo de movimiento no reconocido,937,2024-11-11,,invalido
+939,monto obligatorio,938,30-09-2024,,debito
+940,tipo de movimiento no reconocido,939,2024/04/17,700,invalido
+941,fecha inválida o ambigua; tipo de movimiento no reconocido,940,07-03-2024,1500,desconocido
+942,tipo de movimiento no reconocido,941,25/08/2024,3000,invalido
+943,monto obligatorio; tipo de movimiento no reconocido,942,2024/07/25,,invalido
+947,fecha inválida o ambigua,946,06-08-2024,0,debito
+948,monto obligatorio,947,15-08-2024,,debito
+949,tipo de movimiento no reconocido,948,2024/05/31,700,invalido
+950,tipo de movimiento no reconocido,949,23-08-2024,3000,desconocido
+951,fecha inválida o ambigua; tipo de movimiento no reconocido,950,05/10/2024,-200,invalido
+952,tipo de movimiento no reconocido,951,2024/08/20,800,invalido
+955,tipo de movimiento no reconocido,954,2024-02-28,700,invalido
+956,tipo de movimiento no reconocido,955,2024/09/05,-200,desconocido
+957,monto obligatorio,956,2024-10-29,,debito
+959,tipo de movimiento no reconocido,958,18-12-2024,700,invalido
+961,tipo de movimiento no reconocido,960,28-12-2024,-200,invalido
+962,tipo de movimiento no reconocido,961,2024/12/11,0,invalido
+963,fecha inválida o ambigua; tipo de movimiento no reconocido,962,05-10-2024,-200,invalido
+964,fecha inválida o ambigua,963,03/01/2024,1200,credito
+965,tipo de movimiento no reconocido,964,2024/12/16,-200,invalido
+970,tipo de movimiento no reconocido,969,2024-03-26,1200,desconocido
+971,monto obligatorio,970,2024/01/12,,debito
+972,tipo de movimiento no reconocido,971,19-02-2024,800,invalido
+973,tipo de movimiento no reconocido,972,15-05-2024,-200,invalido
+978,tipo de movimiento no reconocido,977,27/03/2024,500,invalido
+980,fecha inválida o ambigua,979,01/07/2024,0,debito
+982,fecha inválida o ambigua,981,02/02/2024,3000,debito
+984,monto obligatorio; tipo de movimiento no reconocido,983,31/03/2024,,invalido
+986,fecha inválida o ambigua,985,06/04/2024,500,debito
+987,fecha inválida o ambigua,986,2024-13-01,-200,debito
+988,monto obligatorio,987,2024-01-09,,credito
+989,fecha inválida o ambigua,988,2024-13-01,800,debito
+990,tipo de movimiento no reconocido,989,2024/07/01,1500,invalido
+992,tipo de movimiento no reconocido,991,15-05-2024,3000,desconocido
+993,tipo de movimiento no reconocido,992,2024/03/25,1000,invalido
+994,fecha inválida o ambigua; tipo de movimiento no reconocido,993,01-05-2024,-200,desconocido
+996,monto obligatorio,995,2024/05/03,,credito
+997,monto obligatorio; tipo de movimiento no reconocido,996,24/10/2024,,invalido
+998,fecha inválida o ambigua; monto obligatorio; tipo de movimiento no reconocido,997,09-02-2024,,invalido
+999,monto obligatorio,998,30-03-2024,,credito
+1001,tipo de movimiento no reconocido,1000,2024/08/20,1500,desconocido

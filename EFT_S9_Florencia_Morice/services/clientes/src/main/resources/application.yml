@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: clientes-service
+  config:
+    import: "optional:configserver:${CONFIG_SERVER_URI:http://localhost:8888}"
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/eft_s9}
+    username: ${DB_USERNAME:eft_s9}
+    password: ${DB_PASSWORD:}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:}
+    consumer:
+      group-id: cliente-xyz-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: cl.duoc.eft.s9.clientes
+        spring.json.value.default.type: cl.duoc.eft.s9.clientes.TransferenciaEvent
+        spring.json.use.type.headers: false
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: ${KEYCLOAK_JWK_SET_URI:http://banco-xyz-keycloak:8080/realms/banco-xyz/protocol/openid-connect/certs}
+server:
+  port: ${SERVER_PORT:8083}
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka/}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
